@@ -1,0 +1,481 @@
+{
+  "profiles": {
+    "farmer": {
+      "fullName": "Davanagere Basanna",
+      "mobileNumber": "9845012345",
+      "village": "Anaji",
+      "taluk": "Davanagere",
+      "district": "Davanagere",
+      "state": "Karnataka",
+      "completeAddress": "Anaji Village, Near Hanuman Temple, Davanagere District, Karnataka - 577002",
+      "profilePhoto": "",
+      "rewardPoints": 120,
+      "referralCode": "BASA9845",
+      "savedSign": ""
+    },
+    "owner": {
+      "fullName": "Haveri Manjappa",
+      "mobileNumber": "9900123456",
+      "village": "Karajgi",
+      "taluk": "Haveri",
+      "district": "Haveri",
+      "state": "Karnataka",
+      "completeAddress": "Karajgi, Near Railway Station Road, Haveri District, Karnataka - 581110",
+      "aadhaarNumber": "1234 5678 9012",
+      "rewardPoints": 250,
+      "referralCode": "MANJ9900",
+      "savedSign": ""
+    },
+    "admin": {
+      "fullName": "Danya System Admin",
+      "mobileNumber": "9000000000",
+      "village": "Bengaluru",
+      "taluk": "Bengaluru South",
+      "district": "Bengaluru",
+      "state": "Karnataka",
+      "completeAddress": "Danya Agrotech Hub, Palace Road, Vasanth Nagar, Bengaluru, Karnataka - 560001",
+      "rewardPoints": 0
+    }
+  },
+  "machines": [
+    {
+      "id": "machine-1",
+      "name": "Swarnamukhi Rashi Master V1",
+      "type": "Multi-Crop Rashi Machine & High Capacity Separator",
+      "vehicleNumber": "KA-27-M-4321",
+      "ownerName": "Haveri Manjappa",
+      "ownerMobile": "9900123456",
+      "ownerId": "owner-principal",
+      "aadhaarVerified": true,
+      "photos": [],
+      "availabilityStatus": "online",
+      "basePricing": [
+        {
+          "cropName": "Togari",
+          "pricePerAcre": 1200
+        },
+        {
+          "cropName": "Jola",
+          "pricePerAcre": 1000
+        },
+        {
+          "cropName": "Godhi",
+          "pricePerAcre": 900
+        },
+        {
+          "cropName": "Kadale",
+          "pricePerAcre": 1300
+        },
+        {
+          "cropName": "Hesaru",
+          "pricePerAcre": 1100
+        },
+        {
+          "cropName": "Paddy",
+          "pricePerAcre": 1100
+        },
+        {
+          "cropName": "Groundnut",
+          "pricePerAcre": 1400
+        },
+        {
+          "cropName": "Maize",
+          "pricePerAcre": 1000
+        }
+      ],
+      "minCharge": 2000,
+      "travelCharges": 350,
+      "rating": 4.8,
+      "location": {
+        "lat": 14.4644,
+        "lng": 75.9218
+      },
+      "reviews": [
+        {
+          "id": "rev-1",
+          "farmerName": "Basavaraj Gowda",
+          "rating": 5,
+          "comment": "Excellent work done for our Togari crop. Very neat separation without any grain loss. Recommended!",
+          "date": "2026-05-18"
+        },
+        {
+          "id": "rev-2",
+          "farmerName": "Ningappa S",
+          "rating": 4,
+          "comment": "Fast service, machine reached on time. Minimum charge is a bit high but quality of cleaning is super.",
+          "date": "2026-05-15"
+        }
+      ]
+    },
+    {
+      "id": "machine-2",
+      "name": "Bhoomi Harvester Super",
+      "type": "Precision Grain Harvester",
+      "vehicleNumber": "KA-17-A-8902",
+      "ownerName": "Dharwad Mallanna",
+      "ownerMobile": "9480112233",
+      "ownerId": "owner-dharwad",
+      "aadhaarVerified": true,
+      "photos": [],
+      "availabilityStatus": "online",
+      "basePricing": [
+        {
+          "cropName": "Paddy",
+          "pricePerAcre": 1200
+        },
+        {
+          "cropName": "Jola",
+          "pricePerAcre": 1100
+        },
+        {
+          "cropName": "Maize",
+          "pricePerAcre": 1050
+        },
+        {
+          "cropName": "Sajje",
+          "pricePerAcre": 1150
+        }
+      ],
+      "minCharge": 2500,
+      "travelCharges": 500,
+      "rating": 4.5,
+      "location": {
+        "lat": 14.4944,
+        "lng": 75.8818
+      },
+      "reviews": [
+        {
+          "id": "rev-3",
+          "farmerName": "Mallikarjun Patil",
+          "rating": 5,
+          "comment": "Threshed 10 acres of Maize in single day. The owner Patil was very humble and reasonable.",
+          "date": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "id": "machine-3",
+      "name": "Kaveri Crop Decorticator",
+      "type": "Groundnut Thresher & Decorticator",
+      "vehicleNumber": "KA-16-E-5611",
+      "ownerName": "Chitradurga Swamy",
+      "ownerMobile": "9886221144",
+      "ownerId": "owner-chitradurga",
+      "aadhaarVerified": false,
+      "photos": [],
+      "availabilityStatus": "online",
+      "basePricing": [
+        {
+          "cropName": "Groundnut",
+          "pricePerAcre": 1500
+        },
+        {
+          "cropName": "Kadale",
+          "pricePerAcre": 1400
+        }
+      ],
+      "minCharge": 3000,
+      "travelCharges": 400,
+      "rating": 4.2,
+      "location": {
+        "lat": 14.41,
+        "lng": 75.95
+      },
+      "reviews": []
+    }
+  ],
+  "bookings": [
+    {
+      "id": "BK-1004",
+      "farmerId": "farmer-principal",
+      "farmerName": "Davanagere Basanna",
+      "farmerMobile": "9845012345",
+      "village": "Anaji",
+      "taluk": "Davanagere",
+      "district": "Davanagere",
+      "state": "Karnataka",
+      "address": "Anaji Village, Near Hanuman Temple, Davanagere District, Karnataka - 577002",
+      "landmark": "Hatta halli",
+      "cropType": "Jola",
+      "acres": 1,
+      "preferredDate": "2026-05-23",
+      "preferredTime": "10:00 AM",
+      "machineId": "machine-2",
+      "machineName": "Bhoomi Harvester Super",
+      "vehicleNumber": "KA-17-A-8902",
+      "ownerName": "Dharwad Mallanna",
+      "ownerMobile": "9480112233",
+      "ownerId": "owner-dharwad",
+      "ratePerAcre": 1100,
+      "travelCharges": 500,
+      "minCharge": 2500,
+      "totalAmount": 3000,
+      "status": "pending",
+      "farmerLocation": {
+        "lat": 14.4566,
+        "lng": 75.9324
+      },
+      "machineLocation": {
+        "lat": 14.4944,
+        "lng": 75.8818
+      },
+      "distanceKm": 4.3,
+      "etaMinutes": 30,
+      "createdAt": "2026-05-21T14:27:29.601Z",
+      "updatedAt": "2026-05-21T14:27:29.601Z"
+    },
+    {
+      "id": "BK-1005",
+      "farmerId": "farmer-principal",
+      "farmerName": "Davanagere Basanna",
+      "farmerMobile": "9845012345",
+      "village": "Anaji",
+      "taluk": "Davanagere",
+      "district": "Davanagere",
+      "state": "Karnataka",
+      "address": "Anaji Village, Near Hanuman Temple, Davanagere District, Karnataka - 577002",
+      "landmark": "Hatta halli",
+      "cropType": "Jola",
+      "acres": 1,
+      "preferredDate": "2026-05-23",
+      "preferredTime": "10:00 AM",
+      "machineId": "machine-3",
+      "machineName": "Kaveri Crop Decorticator",
+      "vehicleNumber": "KA-16-E-5611",
+      "ownerName": "Chitradurga Swamy",
+      "ownerMobile": "9886221144",
+      "ownerId": "owner-chitradurga",
+      "ratePerAcre": 1000,
+      "travelCharges": 400,
+      "minCharge": 3000,
+      "totalAmount": 3400,
+      "status": "accepted",
+      "farmerLocation": {
+        "lat": 14.4566,
+        "lng": 75.9324
+      },
+      "machineLocation": {
+        "lat": 14.41,
+        "lng": 75.95
+      },
+      "distanceKm": 1.8,
+      "etaMinutes": 13,
+      "createdAt": "2026-05-21T14:24:05.894Z",
+      "updatedAt": "2026-05-21T14:34:34.522Z"
+    },
+    {
+      "id": "BK-1002",
+      "invoiceNumber": "DB-INV-2026-1002",
+      "farmerId": "farmer-principal",
+      "farmerName": "Davanagere Basanna",
+      "farmerMobile": "9845012345",
+      "village": "Anaji",
+      "taluk": "Davanagere",
+      "district": "Davanagere",
+      "state": "Karnataka",
+      "address": "Anaji Village, Davanagere, Karnataka",
+      "landmark": "Near Hanuman Temple",
+      "cropType": "Togari",
+      "acres": 4,
+      "preferredDate": "2026-05-16",
+      "preferredTime": "10:00 AM",
+      "machineId": "machine-1",
+      "machineName": "Swarnamukhi Rashi Master V1",
+      "vehicleNumber": "KA-27-M-4321",
+      "ownerName": "Haveri Manjappa",
+      "ownerMobile": "9900123456",
+      "ownerId": "owner-principal",
+      "ratePerAcre": 1200,
+      "travelCharges": 350,
+      "minCharge": 2000,
+      "totalAmount": 5150,
+      "status": "paid",
+      "farmerLocation": {
+        "lat": 14.4566,
+        "lng": 75.9324
+      },
+      "machineLocation": {
+        "lat": 14.4566,
+        "lng": 75.9324
+      },
+      "distanceKm": 0,
+      "etaMinutes": 0,
+      "paymentMethod": "PhonePe",
+      "transactionId": "TXN56291901234",
+      "screenshotUrl": "MOCK_PAYMENT_SCREENSHOT",
+      "paymentAmount": 5150,
+      "paymentDateTime": "2026-05-16 02:30 PM",
+      "signatures": {
+        "farmerSignature": "SIGNED_BASANNA",
+        "ownerSignature": "SIGNED_MANJAPPA"
+      },
+      "workPhotos": {
+        "before": "MOCK_WORK_BEFORE",
+        "during": "MOCK_WORK_DURING",
+        "after": "MOCK_WORK_AFTER"
+      },
+      "createdAt": "2026-05-15T08:00:00.000Z",
+      "updatedAt": "2026-05-16T15:00:00.000Z"
+    },
+    {
+      "id": "BK-1003",
+      "farmerId": "farmer-principal",
+      "farmerName": "Davanagere Basanna",
+      "farmerMobile": "9845012345",
+      "village": "Anaji",
+      "taluk": "Davanagere",
+      "district": "Davanagere",
+      "state": "Karnataka",
+      "address": "Anaji, Near Lake View",
+      "landmark": "Primary School",
+      "cropType": "Jola",
+      "acres": 3,
+      "preferredDate": "2026-05-24",
+      "preferredTime": "02:00 PM",
+      "machineId": "machine-1",
+      "machineName": "Swarnamukhi Rashi Master V1",
+      "vehicleNumber": "KA-27-M-4321",
+      "ownerName": "Haveri Manjappa",
+      "ownerMobile": "9900123456",
+      "ownerId": "owner-principal",
+      "ratePerAcre": 1000,
+      "travelCharges": 350,
+      "minCharge": 2000,
+      "totalAmount": 3350,
+      "status": "accepted",
+      "farmerLocation": {
+        "lat": 14.4566,
+        "lng": 75.9324
+      },
+      "machineLocation": {
+        "lat": 14.4644,
+        "lng": 75.9218
+      },
+      "distanceKm": 1.5,
+      "etaMinutes": 12,
+      "createdAt": "2026-05-21T10:00:00.000Z",
+      "updatedAt": "2026-05-21T16:17:45.811Z"
+    }
+  ],
+  "logs": [
+    {
+      "id": "log-1779380265809",
+      "userId": "owner-principal",
+      "role": "owner",
+      "action": "Accepted reservation request BK-1003 for Davanagere Basanna",
+      "timestamp": "2026-05-21T16:17:45.809Z"
+    },
+    {
+      "id": "log-1779374074522",
+      "userId": "owner-chitradurga",
+      "role": "owner",
+      "action": "Accepted reservation request BK-1005 for Davanagere Basanna",
+      "timestamp": "2026-05-21T14:34:34.522Z"
+    },
+    {
+      "id": "log-1779373740865",
+      "userId": "owner-chitradurga",
+      "role": "owner",
+      "action": "Accepted reservation request BK-1005 for Davanagere Basanna",
+      "timestamp": "2026-05-21T14:29:00.865Z"
+    },
+    {
+      "id": "log-1779373738877",
+      "userId": "owner-chitradurga",
+      "role": "owner",
+      "action": "Accepted reservation request BK-1005 for Davanagere Basanna",
+      "timestamp": "2026-05-21T14:28:58.877Z"
+    },
+    {
+      "id": "log-1779373666469",
+      "userId": "owner-chitradurga",
+      "role": "owner",
+      "action": "Accepted reservation request BK-1005 for Davanagere Basanna",
+      "timestamp": "2026-05-21T14:27:46.469Z"
+    },
+    {
+      "id": "log-1779373649601",
+      "userId": "farmer-principal",
+      "role": "farmer",
+      "action": "Created booking BK-1004 for Jola (1 acres)",
+      "timestamp": "2026-05-21T14:27:29.601Z"
+    },
+    {
+      "id": "log-1779373551015",
+      "userId": "owner-chitradurga",
+      "role": "owner",
+      "action": "Accepted reservation request BK-1005 for Davanagere Basanna",
+      "timestamp": "2026-05-21T14:25:51.015Z"
+    },
+    {
+      "id": "log-1779373545100",
+      "userId": "owner-chitradurga",
+      "role": "owner",
+      "action": "Accepted reservation request BK-1005 for Davanagere Basanna",
+      "timestamp": "2026-05-21T14:25:45.100Z"
+    },
+    {
+      "id": "log-1779373544752",
+      "userId": "owner-chitradurga",
+      "role": "owner",
+      "action": "Accepted reservation request BK-1005 for Davanagere Basanna",
+      "timestamp": "2026-05-21T14:25:44.752Z"
+    },
+    {
+      "id": "log-1779373544358",
+      "userId": "owner-chitradurga",
+      "role": "owner",
+      "action": "Accepted reservation request BK-1005 for Davanagere Basanna",
+      "timestamp": "2026-05-21T14:25:44.359Z"
+    },
+    {
+      "id": "log-1779373543757",
+      "userId": "owner-chitradurga",
+      "role": "owner",
+      "action": "Accepted reservation request BK-1005 for Davanagere Basanna",
+      "timestamp": "2026-05-21T14:25:43.757Z"
+    },
+    {
+      "id": "log-1779373445895",
+      "userId": "farmer-principal",
+      "role": "farmer",
+      "action": "Created booking BK-1005 for Jola (1 acres)",
+      "timestamp": "2026-05-21T14:24:05.895Z"
+    },
+    {
+      "id": "log-1",
+      "userId": "farmer-principal",
+      "role": "farmer",
+      "action": "Created Booking BK-1002 for Togari crop on Swarnamukhi Rashi Master",
+      "timestamp": "2026-05-15T08:00:00.000Z"
+    },
+    {
+      "id": "log-2",
+      "userId": "owner-principal",
+      "role": "owner",
+      "action": "Accepted Booking BK-1002 and updated availability to heading",
+      "timestamp": "2026-05-15T09:15:00.000Z"
+    },
+    {
+      "id": "log-3",
+      "userId": "owner-principal",
+      "role": "owner",
+      "action": "Work completed & uploaded Before/During/After crop photos for BK-1002",
+      "timestamp": "2026-05-16T13:45:00.000Z"
+    },
+    {
+      "id": "log-4",
+      "userId": "farmer-principal",
+      "role": "farmer",
+      "action": "Uploaded payment screenshot for amount ₹5150",
+      "timestamp": "2026-05-16T14:30:00.000Z"
+    },
+    {
+      "id": "log-5",
+      "userId": "owner-principal",
+      "role": "owner",
+      "action": "Verified payment and generated digital invoice DB-INV-2026-1002",
+      "timestamp": "2026-05-16T15:00:00.000Z"
+    }
+  ]
+}

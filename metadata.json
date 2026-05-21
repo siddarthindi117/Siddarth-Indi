@@ -1,0 +1,6 @@
+{
+  "name": "DanyaBooking",
+  "description": "Smart Rashi Machine Booking & Tracking Platform connecting farmers and machine owners with live GPS, automated invoicing, secure UPI, and Danya AI assistant.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
